@@ -68,10 +68,10 @@ public class InputLanguageSelection extends PreferenceActivity {
     // Run the GetLanguages.sh script to update the following lists based on
     // the available keyboard resources and dictionaries.
     private static final String[] KBD_LOCALIZATIONS = {
-        "ar", "bg", "bg_ST", "ca", "cs", "cs_QY", "da", "de", "de_NE",
-        "el", "en", "en_CX", "en_DV", "en_GB", "es", "es_LA", "es_US",
-        "fa", "fi", "fr", "fr_CA", "he", "hr", "hu", "hu_QY", "hy", "in",
-        "it", "iw", "ja", "ka", "ko", "lo", "lt", "lv", "nb", "nl", "pl",
+        "ar", "bg", "bg_ST", "ca", "cs", "cs_QY", "da", "de", "de_DV",
+        "de_NE", "el", "en", "en_CX", "en_DV", "en_GB", "es", "es_LA",
+        "es_US", "fa", "fi", "fr", "fr_CA", "he", "hr", "hu", "hu_QY", "hy",
+        "in", "it", "iw", "ja", "ko", "lo", "lt", "lv", "nb", "nl", "pl",
         "pt", "pt_PT", "rm", "ro", "ru", "ru_PH", "si", "sk", "sk_QY", "sl",
         "sr", "sv", "ta", "th", "tl", "tr", "uk", "vi", "zh_CN", "zh_TW"
     };
@@ -85,10 +85,10 @@ public class InputLanguageSelection extends PreferenceActivity {
     };
 
     private static final String[] KBD_4_ROW = {
-        "ar", "bg", "bg_ST", "cs", "cs_QY", "da", "de", "de_NE", "el",
-        "en", "en_CX", "en_DV", "es", "es_LA", "es_US", "fa", "fr", "fr_CA",
-        "he", "hr", "hu", "hu_QY", "iw", "nb", "ru", "ru_PH", "sk", "sk_QY",
-        "sl", "sr", "sv", "tr", "uk"
+        "ar", "bg", "bg_ST", "cs", "cs_QY", "da", "de", "de_DV", "de_NE",
+        "el", "en", "en_CX", "en_DV", "es", "es_LA", "es_US", "fa", "fr",
+        "fr_CA", "he", "hr", "hu", "hu_QY", "iw", "nb", "ru", "ru_PH",
+        "sk", "sk_QY", "sl", "sr", "sv", "tr", "uk"
     };
 
     private static String getLocaleName(Locale l) {
@@ -104,6 +104,8 @@ public class InputLanguageSelection extends PreferenceActivity {
             return "Español (Latinoamérica)";
         } else if (lang.equals("cs") && country.equals("QY")) {
             return "Čeština (QWERTY)";
+		} else if (lang.equals("de") && country.equals("DV")) {
+			return "Deutsch (Dvorak)";
         } else if (lang.equals("de") && country.equals("NE")) {
             return "Deutsch (Neo2)";
         } else if (lang.equals("hu") && country.equals("QY")) {
