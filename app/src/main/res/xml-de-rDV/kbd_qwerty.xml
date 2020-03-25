@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Keyboard xmlns:android="http://schemas.android.com/apk/res/android" xmlns:latin="http://schemas.android.com/apk/res/org.pocketworkstation.pckeyboard" latin:keyWidth="9.0909%p" latin:horizontalGap="0px" latin:verticalGap="@dimen/key_bottom_gap">
+    <Row latin:rowEdgeFlags="top">
+        <Key latin:horizontalGap="4.5455%p" latin:popupKeyboard="@xml/kbd_popup_template" latin:popupCharacters="1@" latin:keyEdgeFlags="left" latin:keyLabel="ü"/>
+        <Key latin:popupKeyboard="@xml/kbd_popup_template" latin:popupCharacters="2;" latin:keyLabel=","/>
+        <Key latin:popupKeyboard="@xml/kbd_popup_template" latin:popupCharacters="3:" latin:keyLabel="."/>
+        <Key latin:popupKeyboard="@xml/kbd_popup_template" latin:popupCharacters="4" latin:keyLabel="p"/>
+        <Key latin:popupKeyboard="@xml/kbd_popup_template" latin:popupCharacters="5" latin:keyLabel="y"/>
+        <Key latin:popupKeyboard="@xml/kbd_popup_template" latin:popupCharacters="6" latin:keyLabel="f"/>
+        <Key latin:popupKeyboard="@xml/kbd_popup_template" latin:popupCharacters="7" latin:keyLabel="g"/>
+        <Key latin:popupKeyboard="@xml/kbd_popup_template" latin:popupCharacters="8©" latin:keyLabel="c"/>
+        <Key latin:popupKeyboard="@xml/kbd_popup_template" latin:popupCharacters="9™" latin:keyLabel="t"/>
+        <Key latin:popupKeyboard="@xml/kbd_popup_template" latin:popupCharacters="0ż" latin:keyEdgeFlags="right" latin:keyLabel="z"/>
+    </Row>
+    <Row>
+        <Key latin:popupKeyboard="@xml/kbd_popup_template" latin:popupCharacters="ä@" latin:keyEdgeFlags="left" latin:keyLabel="a"/>
+        <Key latin:popupKeyboard="@xml/kbd_popup_template" latin:popupCharacters="öó" latin:keyLabel="o"/>
+        <Key latin:popupKeyboard="@xml/kbd_popup_template" latin:popupCharacters="€" latin:keyLabel="e"/>
+        <Key latin:keyLabel="i"/>
+        <Key latin:popupKeyboard="@xml/kbd_popup_template" latin:popupCharacters="ü" latin:keyLabel="u"/>
+        <Key latin:keyLabel="h"/>
+        <Key latin:keyLabel="d"/>
+        <Key latin:popupKeyboard="@xml/kbd_popup_template" latin:popupCharacters="®" latin:keyLabel="r"/>
+        <Key latin:popupKeyboard="@xml/kbd_popup_template" latin:popupCharacters="ń" latin:keyLabel="n"/>
+        <Key latin:popupKeyboard="@xml/kbd_popup_template" latin:popupCharacters="ßś" latin:keyLabel="s"/>
+        <Key latin:popupKeyboard="@xml/kbd_popup_template" latin:popupCharacters="ł" latin:keyEdgeFlags="right" latin:keyLabel="l"/>
+    </Row>
+    <Row>
+        <Key latin:keyWidth="13.6364%p" latin:codes="@integer/key_shift" latin:keyEdgeFlags="left" latin:isModifier="true" latin:isSticky="true" latin:iconPreview="@drawable/sym_keyboard_feedback_shift" latin:keyIcon="@drawable/sym_keyboard_shift"/>
+        <Key latin:popupKeyboard="@xml/kbd_popup_template" latin:popupCharacters="@" latin:keyLabel="q"/>
+        <Key latin:keyLabel="j"/>
+        <Key latin:keyLabel="k"/>
+        <Key latin:keyLabel="x"/>
+        <Key latin:keyLabel="b"/>
+        <Key latin:popupKeyboard="@xml/kbd_popup_template" latin:popupCharacters="µ" latin:keyLabel="m"/>
+        <Key latin:keyLabel="w"/>
+        <Key latin:keyLabel="v"/>
+        <Key latin:keyWidth="13.6364%p" latin:codes="@integer/key_delete" latin:keyEdgeFlags="right" latin:isModifier="true" latin:isRepeatable="true" latin:iconPreview="@drawable/sym_keyboard_feedback_delete" latin:keyIcon="@drawable/sym_keyboard_delete"/>
+    </Row>
+    <Row latin:keyWidth="10%p" latin:rowEdgeFlags="bottom" latin:keyboardMode="@+id/mode_normal">
+        <Key latin:keyWidth="20%p" latin:codes="@integer/key_symbol" latin:keyEdgeFlags="left" latin:isModifier="true" latin:keyLabel="@string/label_symbol_key"/>
+        <Key latin:codes="@integer/key_f1" latin:isModifier="true"/>
+        <Key latin:keyWidth="40%p" latin:codes="@integer/key_space" latin:isModifier="true" latin:iconPreview="@drawable/sym_keyboard_feedback_space" latin:keyIcon="@drawable/sym_keyboard_space"/>
+        <Key latin:popupKeyboard="@xml/popup_punctuation" latin:isModifier="true" latin:keyLabel="." latin:keyIcon="@drawable/hint_popup"/>
+        <Key latin:keyWidth="20%p" latin:codes="@integer/key_return" latin:keyEdgeFlags="right" latin:isModifier="true" latin:iconPreview="@drawable/sym_keyboard_feedback_return" latin:keyIcon="@drawable/sym_keyboard_return"/>
+    </Row>
+    <Row latin:keyWidth="10%p" latin:rowEdgeFlags="bottom" latin:keyboardMode="@+id/mode_url">
+        <Key latin:keyWidth="20%p" latin:codes="@integer/key_symbol" latin:keyEdgeFlags="left" latin:isModifier="true" latin:keyLabel="@string/label_symbol_key"/>
+        <Key latin:codes="@integer/key_f1" latin:isModifier="true"/>
+        <Key latin:keyWidth="40%p" latin:codes="@integer/key_space" latin:isModifier="true" latin:iconPreview="@drawable/sym_keyboard_feedback_space" latin:keyIcon="@drawable/sym_keyboard_space"/>
+        <Key latin:popupKeyboard="@xml/popup_punctuation" latin:isModifier="true" latin:keyLabel="." latin:keyIcon="@drawable/hint_popup"/>
+        <Key latin:keyWidth="20%p" latin:codes="@integer/key_return" latin:keyEdgeFlags="right" latin:isModifier="true" latin:iconPreview="@drawable/sym_keyboard_feedback_return" latin:keyIcon="@drawable/sym_keyboard_return"/>
+    </Row>
+    <Row latin:keyWidth="10%p" latin:rowEdgeFlags="bottom" latin:keyboardMode="@+id/mode_email">
+        <Key latin:keyWidth="20%p" latin:codes="@integer/key_symbol" latin:keyEdgeFlags="left" latin:isModifier="true" latin:keyLabel="@string/label_symbol_key"/>
+        <Key latin:codes="@integer/key_f1" latin:isModifier="true"/>
+        <Key latin:keyWidth="40%p" latin:codes="@integer/key_space" latin:isModifier="true" latin:iconPreview="@drawable/sym_keyboard_feedback_space" latin:keyIcon="@drawable/sym_keyboard_space"/>
+        <Key latin:popupKeyboard="@xml/popup_punctuation" latin:isModifier="true" latin:keyLabel="." latin:keyIcon="@drawable/hint_popup"/>
+        <Key latin:keyWidth="20%p" latin:codes="@integer/key_return" latin:keyEdgeFlags="right" latin:isModifier="true" latin:iconPreview="@drawable/sym_keyboard_feedback_return" latin:keyIcon="@drawable/sym_keyboard_return"/>
+    </Row>
+    <Row latin:keyWidth="10%p" latin:rowEdgeFlags="bottom" latin:keyboardMode="@+id/mode_im">
+        <Key latin:keyWidth="20%p" latin:codes="@integer/key_symbol" latin:keyEdgeFlags="left" latin:isModifier="true" latin:keyLabel="@string/label_symbol_key"/>
+        <Key latin:codes="@integer/key_f1" latin:isModifier="true"/>
+        <Key latin:keyWidth="40%p" latin:codes="@integer/key_space" latin:isModifier="true" latin:iconPreview="@drawable/sym_keyboard_feedback_space" latin:keyIcon="@drawable/sym_keyboard_space"/>
+        <Key latin:popupKeyboard="@xml/popup_punctuation" latin:isModifier="true" latin:keyLabel="." latin:keyIcon="@drawable/hint_popup"/>
+        <Key latin:keyWidth="20%p" latin:popupKeyboard="@xml/popup_smileys" latin:keyEdgeFlags="right" latin:isModifier="true" latin:keyOutputText=":-) " latin:keyLabel=":-)" latin:keyIcon="@drawable/hint_popup"/>
+    </Row>
+    <Row latin:keyWidth="10%p" latin:rowEdgeFlags="bottom" latin:keyboardMode="@+id/mode_webentry">
+        <Key latin:keyWidth="20%p" latin:codes="@integer/key_symbol" latin:keyEdgeFlags="left" latin:isModifier="true" latin:keyLabel="@string/label_symbol_key"/>
+        <Key latin:codes="@integer/key_f1" latin:isModifier="true"/>
+        <Key latin:keyWidth="30%p" latin:codes="@integer/key_space" latin:isModifier="true" latin:iconPreview="@drawable/sym_keyboard_feedback_space" latin:keyIcon="@drawable/sym_keyboard_space"/>
+        <Key latin:codes="@integer/key_tab" latin:isModifier="true" latin:iconPreview="@drawable/sym_keyboard_feedback_tab" latin:keyIcon="@drawable/sym_keyboard_tab"/>
+        <Key latin:popupKeyboard="@xml/popup_punctuation" latin:isModifier="true" latin:keyLabel="." latin:keyIcon="@drawable/hint_popup"/>
+        <Key latin:keyWidth="20%p" latin:codes="@integer/key_return" latin:keyEdgeFlags="right" latin:isModifier="true" latin:iconPreview="@drawable/sym_keyboard_feedback_return" latin:keyIcon="@drawable/sym_keyboard_return"/>
+    </Row>
+    <Row latin:keyWidth="10%p" latin:rowEdgeFlags="bottom" latin:keyboardMode="@+id/mode_normal_with_settings_key">
+        <Key latin:keyWidth="15%p" latin:codes="@integer/key_symbol" latin:keyEdgeFlags="left" latin:isModifier="true" latin:keyLabel="@string/label_symbol_key"/>
+        <Key latin:codes="@integer/key_settings" latin:isModifier="true" latin:iconPreview="@drawable/sym_keyboard_feedback_settings" latin:keyIcon="@drawable/sym_keyboard_settings"/>
+        <Key latin:codes="@integer/key_f1" latin:isModifier="true"/>
+        <Key latin:keyWidth="30%p" latin:codes="@integer/key_space" latin:isModifier="true" latin:iconPreview="@drawable/sym_keyboard_feedback_space" latin:keyIcon="@drawable/sym_keyboard_space"/>
+        <Key latin:popupKeyboard="@xml/popup_punctuation" latin:isModifier="true" latin:keyLabel="." latin:keyIcon="@drawable/hint_popup"/>
+        <Key latin:keyWidth="25%p" latin:codes="@integer/key_return" latin:keyEdgeFlags="right" latin:isModifier="true" latin:iconPreview="@drawable/sym_keyboard_feedback_return" latin:keyIcon="@drawable/sym_keyboard_return"/>
+    </Row>
+    <Row latin:keyWidth="10%p" latin:rowEdgeFlags="bottom" latin:keyboardMode="@+id/mode_url_with_settings_key">
+        <Key latin:keyWidth="15%p" latin:codes="@integer/key_symbol" latin:keyEdgeFlags="left" latin:isModifier="true" latin:keyLabel="@string/label_symbol_key"/>
+        <Key latin:codes="@integer/key_settings" latin:isModifier="true" latin:iconPreview="@drawable/sym_keyboard_feedback_settings" latin:keyIcon="@drawable/sym_keyboard_settings"/>
+        <Key latin:codes="@integer/key_f1" latin:isModifier="true"/>
+        <Key latin:keyWidth="30%p" latin:codes="@integer/key_space" latin:isModifier="true" latin:iconPreview="@drawable/sym_keyboard_feedback_space" latin:keyIcon="@drawable/sym_keyboard_space"/>
+        <Key latin:popupKeyboard="@xml/popup_punctuation" latin:isModifier="true" latin:keyLabel="." latin:keyIcon="@drawable/hint_popup"/>
+        <Key latin:keyWidth="25%p" latin:codes="@integer/key_return" latin:keyEdgeFlags="right" latin:isModifier="true" latin:iconPreview="@drawable/sym_keyboard_feedback_return" latin:keyIcon="@drawable/sym_keyboard_return"/>
+    </Row>
+    <Row latin:keyWidth="10%p" latin:rowEdgeFlags="bottom" latin:keyboardMode="@+id/mode_email_with_settings_key">
+        <Key latin:keyWidth="15%p" latin:codes="@integer/key_symbol" latin:keyEdgeFlags="left" latin:isModifier="true" latin:keyLabel="@string/label_symbol_key"/>
+        <Key latin:codes="@integer/key_settings" latin:isModifier="true" latin:iconPreview="@drawable/sym_keyboard_feedback_settings" latin:keyIcon="@drawable/sym_keyboard_settings"/>
+        <Key latin:codes="@integer/key_f1" latin:isModifier="true"/>
+        <Key latin:keyWidth="30%p" latin:codes="@integer/key_space" latin:isModifier="true" latin:iconPreview="@drawable/sym_keyboard_feedback_space" latin:keyIcon="@drawable/sym_keyboard_space"/>
+        <Key latin:popupKeyboard="@xml/popup_punctuation" latin:isModifier="true" latin:keyLabel="." latin:keyIcon="@drawable/hint_popup"/>
+        <Key latin:keyWidth="25%p" latin:codes="@integer/key_return" latin:keyEdgeFlags="right" latin:isModifier="true" latin:iconPreview="@drawable/sym_keyboard_feedback_return" latin:keyIcon="@drawable/sym_keyboard_return"/>
+    </Row>
+    <Row latin:keyWidth="10%p" latin:rowEdgeFlags="bottom" latin:keyboardMode="@+id/mode_im_with_settings_key">
+        <Key latin:keyWidth="15%p" latin:codes="@integer/key_symbol" latin:keyEdgeFlags="left" latin:isModifier="true" latin:keyLabel="@string/label_symbol_key"/>
+        <Key latin:codes="@integer/key_settings" latin:isModifier="true" latin:iconPreview="@drawable/sym_keyboard_feedback_settings" latin:keyIcon="@drawable/sym_keyboard_settings"/>
+        <Key latin:codes="@integer/key_f1" latin:isModifier="true"/>
+        <Key latin:keyWidth="30%p" latin:codes="@integer/key_space" latin:isModifier="true" latin:iconPreview="@drawable/sym_keyboard_feedback_space" latin:keyIcon="@drawable/sym_keyboard_space"/>
+        <Key latin:popupKeyboard="@xml/popup_punctuation" latin:isModifier="true" latin:keyLabel="." latin:keyIcon="@drawable/hint_popup"/>
+        <Key latin:keyWidth="25%p" latin:popupKeyboard="@xml/popup_smileys" latin:keyEdgeFlags="right" latin:isModifier="true" latin:keyOutputText=":-) " latin:keyLabel=":-)" latin:keyIcon="@drawable/hint_popup"/>
+    </Row>
+    <Row latin:keyWidth="10%p" latin:rowEdgeFlags="bottom" latin:keyboardMode="@+id/mode_webentry_with_settings_key">
+        <Key latin:keyWidth="15%p" latin:codes="@integer/key_symbol" latin:keyEdgeFlags="left" latin:isModifier="true" latin:keyLabel="@string/label_symbol_key"/>
+        <Key latin:codes="@integer/key_settings" latin:isModifier="true" latin:iconPreview="@drawable/sym_keyboard_feedback_settings" latin:keyIcon="@drawable/sym_keyboard_settings"/>
+        <Key latin:codes="@integer/key_f1" latin:isModifier="true"/>
+        <Key latin:keyWidth="30%p" latin:codes="@integer/key_space" latin:isModifier="true" latin:iconPreview="@drawable/sym_keyboard_feedback_space" latin:keyIcon="@drawable/sym_keyboard_space"/>
+        <Key latin:codes="@integer/key_tab" latin:isModifier="true" latin:iconPreview="@drawable/sym_keyboard_feedback_tab" latin:keyIcon="@drawable/sym_keyboard_tab"/>
+        <Key latin:popupKeyboard="@xml/popup_punctuation" latin:isModifier="true" latin:keyLabel="." latin:keyIcon="@drawable/hint_popup"/>
+        <Key latin:keyWidth="15%p" latin:codes="@integer/key_return" latin:keyEdgeFlags="right" latin:isModifier="true" latin:iconPreview="@drawable/sym_keyboard_feedback_return" latin:keyIcon="@drawable/sym_keyboard_return"/>
+    </Row>
+</Keyboard>
